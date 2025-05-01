@@ -69,6 +69,7 @@ const ProductPage = () => {
     IMAGE_URL_SENSIBULL,
     IMAGE_URL_STIEAK_LOGO,
     IMAGE_URL_SMALLCASE,
+    IMAGE_URL_GOLDENPI,
     IMAGE_URL_DITTO,
     SIGN_BUTTON
   } = PRODUCT_UNIVERSE;
@@ -132,6 +133,7 @@ const ProductPage = () => {
         imgSensBall={IMAGE_URL_SENSIBULL}
         stieakLogo={IMAGE_URL_STIEAK_LOGO}
         imgSmallCase={IMAGE_URL_SMALLCASE}
+        goldenpiLogo={IMAGE_URL_GOLDENPI}
         imgDitto={IMAGE_URL_DITTO}
         signUpButton={SIGN_BUTTON}
       />
