@@ -65,7 +65,48 @@ export const PRODUCT_UNIVERSE= {
    IMAGE_URL_ZERODHA_FOUND: "media/images/zerodhaFundhouse.png",
    IMAGE_URL_SENSIBULL: "media/images/sensibullLogo.svg",
    IMAGE_URL_STIEAK_LOGO: "media/images/streakLogo.png",
+   IMAGE_URL_GOLDENPI:"media/images/goldenpiLogo.png",
    IMAGE_URL_SMALLCASE:"media/images/smallcaseLogo.png",
    IMAGE_URL_DITTO:"media/images/dittoLogo.png",
    SIGN_BUTTON:"Sign Up For Free"
 }
+
+export const PRICING_PAGE={
+ PRICING_HEADING:"Charges",
+  PARA:"List of the all charges and taxes",
+  IMG_URL_PRICING_0:"media/images/pricing0.svg",
+  HEADING_PRICING_0:"Free equity delivery",
+  PARA_PRICING_0:"All equity delivery investments (NSE, BSE), are absolutely free — ₹ 0 brokerage.",
+  IMG_URL_INTRADAY:"media/images/intradayTrades.svg",
+  HEADING_INTRADAY:"Intraday and F&O trades",
+  PARA_INTRADAY:"Flat ₹ 20 or 0.03% (whichever is lower) per executed order on intraday trades across equity, currency, and commodity trades. Flat ₹20 on all option trades.",
+  IMAGE_DIRECT_MF:"media/images/pricing0.svg",
+  HEADING_DIRECT_MF:"Free direct MF",
+  PARA_DIRECT_MF:"All direct mutual fund investments are absolutely free — ₹ 0 commissions & DP charges",
+}
+export const BROKERAGE_PAGE={
+  BROKERAGE_HEADING:"Brokerage Calculator",
+  CHARGES_LIST_HEADING:"List of Charges"
+}
+export const BROKERAGE_CALCULATOR = [
+  "Call & Trade and RMS auto-squareoff: Additional charges of ₹50 + GST per order.",
+  "Digital contract notes will be sent via e-mail.",
+  "Physical copies of contract notes, if required, shall be charged ₹20 per contract note. Courier charges apply.",
+  "For NRI account (non-PIS), 0.5% or ₹100 per executed order for equity (whichever is lower).",
+  "For NRI account (PIS), 0.5% or ₹200 per executed order for equity (whichever is lower).",
+  "If the account is in debit balance, any order placed will be charged ₹40 per executed order instead of ₹20 per executed order."
+];
+export const CHARGES_LIST = [
+  "Equity Delivery: ₹0 (Free)",
+  "Equity Intraday: ₹20 or 0.03% (whichever is lower) per executed order",
+  "Equity Futures: ₹20 or 0.03% (whichever is lower) per executed order",
+  "Equity Options: ₹20 per executed order (on Turnover)",
+  "Currency Futures & Options: ₹20 or 0.03% (whichever is lower) per executed order",
+  "Commodity: ₹20 or 0.03% (whichever is lower) per executed order",
+  "Call & Trade: ₹50 per order",
+  "DP (Depository Participant) Charges: ₹13.5 per scrip on sell side",
+  "SEBI Charges: ₹10 per crore",
+  "GST: 18% on brokerage + transaction charges",
+  "Stamp Duty: As per state government regulations",
+  "Transaction Charges: As per exchange"
+];
