@@ -110,3 +110,58 @@ export const CHARGES_LIST = [
   "Stamp Duty: As per state government regulations",
   "Transaction Charges: As per exchange"
 ];
+export const TICKETS={
+  
+  HEADING:"To create a ticket, select a relevant topic",
+  ACCOUNT_OPENING:" Account Opening",
+ RESIDENT_INDIVIDUAL :" Resident individual",
+ MINOR:"Minor",
+ NRI:" Non Resident Indian (NRI)",
+  COMPANY_PARTNERSHIP  :" Company, Partnership, HUF and LLP",
+  GLOSSARY:"Glossary",
+  ZERODHA_ACCOUNT:"Your Zerodha Account",
+  YOUR_PROFILE:"Your Profile",
+  ACCOUNT_MODIFICATION:" Account modification",
+  CRM:"Client Master Report (CMR) and Depository Participant (DP)",
+  NOMINATION:"Nomination",
+  TRANSER_AND_CONVERSION_OF_SECURITY:"Transfer and conversion of securities",
+  KITE:"Kite",
+  IPO:"IPO",
+  TRADING_FAQ:"Trading FAQs",
+  MTF:" Margin Trading Facility (MTF) and Margins",
+  CHARTS_AND_ORDERS:"Charts and orders",
+  ALERTS_AND_NUDGES:"Alerts and Nudges",
+  GENERAL:"General",
+  FUNDS:"Funds",
+  ADD_MONEY:"Add money",
+  WITHDRAW_MONEY:"Withdraw money",
+  ADD_BANK_ACCOUNTS:"Add bank accounts",
+  EMANDATES:"eMandates",
+  CONSOLE:"Console",
+  PROTFOLIO:"Portfolio",
+  CORPORATE_ACTIONS:" Corporate actions",
+  FUNDS_STATEMENT:"Funds statement",
+  REPORTS:"Reports",
+  PROFILE:"Profile",
+  SEGMENTS:"Segments",
+  COIN:"Coin",
+  UNDERSTANDING_MUTUAL_FUNDS_COIN:"Understanding mutual funds and Coin",
+  COIN_APP:"Coin app",
+  COIN_WEB:"Coin web",
+  TRANSACTIONS_AND_REPORTS:"Transactions and reports",
+  NPS:"National Pension Scheme (NPS)"
+}
+
+export const SUPPORT_HERO={
+  SUPPORT_PORTAL:"Support Portal",
+  TRACK_TICKETS:"Track tickets",
+  LEFT_HEADING:"Search for an answer or browse help topics to create a ticket",
+  PLACEHOLDER:"Eg: how do i activate F&O, why is my order getting rejected ...",
+  TRACK_ACCOUNT_OPENING:"Track account opening",
+  TRACK_SEGMENT_ACTIVATION:" Track segment activation",
+  INTRADY_MARGINS:" Intraday margins",
+  KITE_USER_MANUAL:" Kite user manual",
+  FEATURED:"Featured",
+  CURRENT_TAKEOVERS_AND_DELISTING:"Current Takeovers and Delisting – April 2025",
+  RIGHT_ENTITLEMENTS_LISTING:" Rights Entitlements listing in April 2025"
+}
