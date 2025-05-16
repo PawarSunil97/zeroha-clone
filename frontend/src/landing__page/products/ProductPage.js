@@ -1,0 +1,144 @@
+import React from "react";
+import { Hero } from "./Hero";
+import LeftSection from "./LeftSection";
+import RightSection from "./RightSection";
+import {
+  PRODUCTPAGELEFT,
+  PRODUCTPAGERIGHT,
+  PRODUCT_UNIVERSE,
+} from "../appConstant";
+import Universe from "./Universe";
+
+const ProductPage = () => {
+  const {
+    IMAGE_URL: IMAGE_URL_FIRST,
+    PRODUCT_NAME: PRODUCT_NAME_FIRST,
+    PRODUCT_DISCRIPTION: PRODUCT_DISCRIPTION_FIRST,
+    TRY_DEMO: TRY_DEMO_FIRST,
+    LEARN_MORE: LEARN_MORE_FIRST,
+    GOOGLE_PLAY_IMG: GOOGLE_PLAY_IMG_FIRST,
+    GOOGLE_PLAY_ALT_TEXT: GOOGLE_PLAY_ALT_TEXT_FIRST,
+    APP_STORE_IMG: APP_STORE_IMG_FIRST,
+    APP_STORE_ALT_TEXT: APP_STORE_ALT_TEXT_FIRST,
+  } = PRODUCTPAGELEFT.PRODUCTPAGERIGHTFIRST;
+
+  const {
+    IMAGE_URL: IMAGE_URL_SECOND,
+    PRODUCT_NAME: PRODUCT_NAME_SECOND,
+    PRODUCT_DISCRIPTION: PRODUCT_DISCRIPTION_SECOND,
+    TRY_DEMO: TRY_DEMO_SECOND,
+    LEARN_MORE: LEARN_MORE_SECOND,
+    GOOGLE_PLAY_IMG: GOOGLE_PLAY_IMG_SECOND,
+    GOOGLE_PLAY_ALT_TEXT: GOOGLE_PLAY_ALT_TEXT_SECOND,
+    APP_STORE_IMG: APP_STORE_IMG_SECOND,
+    APP_STORE_ALT_TEXT: APP_STORE_ALT_TEXT_SECOND,
+  } = PRODUCTPAGELEFT.PRODUCTPAGERIGHTSECOND;
+
+  const {
+    IMAGE_URL: IMAGE_URL_VARSITY,
+    PRODUCT_NAME: PRODUCT_NAME_VARSITY,
+    PRODUCT_DISCRIPTION: PRODUCT_DISCRIPTION_VARSITY,
+    TRY_DEMO: TRY_DEMO_VARSITY,
+    LEARN_MORE: LEARN_MORE_VARSITY,
+    GOOGLE_PLAY_IMG: GOOGLE_PLAY_IMG_VARSITY,
+    GOOGLE_PLAY_ALT_TEXT: GOOGLE_PLAY_ALT_TEXT_VARSITY,
+    APP_STORE_IMG: APP_STORE_IMG_VARSITY,
+    APP_STORE_ALT_TEXT: APP_STORE_ALT_TEXT_VARSITY,
+  } = PRODUCTPAGELEFT.PRODUCTPAGERIGHTTHIRD;
+  const {
+    IMAGE_URL_CONSOLE,
+    IMG_ALT,
+    PRODUCT_NAME_CONSOLE,
+    PRODUCT_DISCRIPTION_CONSOLE,
+    LEARN_MORE_CONSOLE,
+  } = PRODUCTPAGERIGHT.PRODUCTPAGERIGHTCONSOLE;
+  const {
+    IMAGE_URL_KITE,
+    KITE_IMG_ALT,
+    PRODUCT_NAME_KITE,
+    PRODUCT_DISCRIPTION_KITE,
+    LEARN_MORE_KITE,
+  } = PRODUCTPAGERIGHT.PRODUCTPAGERIGHT_KIT;
+
+  const {
+    FIRST_PARAGRAPH,
+    ZERODHA_TECH_INFO,
+    UNIVERSE_HEADING,
+    SECOND_PARA,
+    IMAGE_URL_ZERODHA_FOUND,
+    IMAGE_URL_SENSIBULL,
+    IMAGE_URL_STIEAK_LOGO,
+    IMAGE_URL_SMALLCASE,
+    IMAGE_URL_GOLDENPI,
+    IMAGE_URL_DITTO,
+    SIGN_BUTTON
+  } = PRODUCT_UNIVERSE;
+
+  return (
+    <div>
+      <Hero />
+      <LeftSection
+        imageUrl={IMAGE_URL_FIRST}
+        productName={PRODUCT_NAME_FIRST}
+        productDescription={PRODUCT_DISCRIPTION_FIRST}
+        tryDemo={TRY_DEMO_FIRST}
+        learnMore={LEARN_MORE_FIRST}
+        googlePlayImg={GOOGLE_PLAY_IMG_FIRST}
+        googlePlayAlt={GOOGLE_PLAY_ALT_TEXT_FIRST}
+        appStoreImg={APP_STORE_IMG_FIRST}
+        appStoreAlt={APP_STORE_ALT_TEXT_FIRST}
+      />
+      <RightSection
+        imageUrl={IMAGE_URL_CONSOLE}
+        imgAlt={IMG_ALT}
+        productName={PRODUCT_NAME_CONSOLE}
+        productDescription={PRODUCT_DISCRIPTION_CONSOLE}
+        learnMore={LEARN_MORE_CONSOLE}
+      />
+      <LeftSection
+        imageUrl={IMAGE_URL_SECOND}
+        productName={PRODUCT_NAME_SECOND}
+        productDescription={PRODUCT_DISCRIPTION_SECOND}
+        tryDemo={TRY_DEMO_SECOND}
+        learnMore={LEARN_MORE_SECOND}
+        googlePlayImg={GOOGLE_PLAY_IMG_SECOND}
+        googlePlayAlt={GOOGLE_PLAY_ALT_TEXT_SECOND}
+        appStoreImg={APP_STORE_IMG_SECOND}
+        appStoreAlt={APP_STORE_ALT_TEXT_SECOND}
+      />
+      <RightSection
+        imageUrl={IMAGE_URL_KITE}
+        imgAlt={KITE_IMG_ALT}
+        productName={PRODUCT_NAME_KITE}
+        productDescription={PRODUCT_DISCRIPTION_KITE}
+        learnMore={LEARN_MORE_KITE}
+      />
+      <LeftSection
+        imageUrl={IMAGE_URL_VARSITY}
+        productName={PRODUCT_NAME_VARSITY}
+        productDescription={PRODUCT_DISCRIPTION_VARSITY}
+        tryDemo={TRY_DEMO_VARSITY}
+        learnMore={LEARN_MORE_VARSITY}
+        googlePlayImg={GOOGLE_PLAY_IMG_VARSITY}
+        googlePlayAlt={GOOGLE_PLAY_ALT_TEXT_VARSITY}
+        appStoreImg={APP_STORE_IMG_VARSITY}
+        appStoreAlt={APP_STORE_ALT_TEXT_VARSITY}
+      />
+      <Universe
+        firstPara={FIRST_PARAGRAPH}
+        zerodhaInfo={ZERODHA_TECH_INFO}
+        heading={UNIVERSE_HEADING}
+        secondPara={SECOND_PARA}
+        imgZerodhaFound={IMAGE_URL_ZERODHA_FOUND}
+        imgSensBall={IMAGE_URL_SENSIBULL}
+        stieakLogo={IMAGE_URL_STIEAK_LOGO}
+        imgSmallCase={IMAGE_URL_SMALLCASE}
+        goldenpiLogo={IMAGE_URL_GOLDENPI}
+        imgDitto={IMAGE_URL_DITTO}
+        signUpButton={SIGN_BUTTON}
+      />
+    </div>
+  );
+};
+
+export default ProductPage;

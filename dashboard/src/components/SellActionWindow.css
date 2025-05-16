@@ -1,0 +1,144 @@
+/* Container styling */
+.sell-window.container {
+    width: 420px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: white;
+    font-family: "Segoe UI", sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+  
+  /* Header */
+  .sell-window .header {
+    background-color: #f5532f; /* Zerodha-like red-orange */
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  /* NSE price */
+  .sell-window .sub-header {
+    background-color: #f5532f;
+    color: white;
+    padding: 0 16px 12px;
+    font-size: 14px;
+  }
+  
+  /* Section: Product / Order types */
+  .sell-window .order-types,
+  .sell-window .product-types {
+    display: flex;
+    gap: 10px;
+    padding: 16px;
+  }
+  
+  .sell-window .order-types label,
+  .sell-window .product-types label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .sell-window input[type="radio"] {
+    margin-right: 6px;
+    accent-color: #f5532f;
+  }
+  
+  /* Inputs */
+  .sell-window .inputs {
+    padding: 0 16px;
+    display: flex;
+    gap: 12px;
+  }
+  
+  .sell-window fieldset {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .sell-window legend {
+    font-size: 12px;
+    padding: 0 4px;
+    color: #666;
+  }
+  
+  .sell-window input[type="number"] {
+    width: 100%;
+    padding: 4px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  /* Disclosed qty and more */
+  .sell-window .disclosed {
+    padding: 16px;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Buttons */
+  .sell-window .buttons {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+  }
+  
+  .sell-window .buttons span {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .sell-window .buttons div {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .sell-window .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .sell-window .btn-red {
+    background-color: #f5532f;
+    color: white;
+  }
+  
+  .sell-window .btn-red:hover {
+    background-color: #e2481c;
+  }
+  
+  .sell-window .btn-grey {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .sell-window .btn-grey:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* More options toggle (optional) */
+  .sell-window .more-options {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .sell-window .more-options:hover {
+    color: #f5532f;
+  }
+  
