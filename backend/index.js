@@ -9,11 +9,15 @@ const bodyParser = require("body-parser");
 const { HoldingModel } = require("./model/HoldingModel");
 const { PositionModel } = require("./model/PositionModel");
 const { OrderModel } = require("./model/OrderModel");
-
+const  userRoutes =require("./routes/userRoutes")
 const app = express();
-app.use(cors());
-app.use(bodyParser.json());
 
+app.use(cors({
+  origin: 'http://localhost:3000', // Your React frontend
+}));
+app.use(bodyParser.json());
+app.use(express.json()); // Parse JSON request body
+app.use('/api/getotp', userRoutes); // Prefix all OTP routes
 const PORT = process.env.PORT || 3001;
 const db_url = process.env.MONGO_URL;
 
